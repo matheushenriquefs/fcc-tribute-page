@@ -64,3 +64,74 @@ blockquote {
     margin-bottom: 5%; } }
 
 /* ---------- */
+/* Tablet and Small Desktop */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 5% 0% 0% 0%; }
+  h2 {
+    font-size: 1.5rem;
+    margin: 5% 0% 5% 0%; }
+  h3 {
+    font-size: 1.25rem;
+    margin: 5% 0% 5% 0%; }
+  figcaption {
+    font-size: 1rem; }
+  #photo {
+    margin-bottom: 2.5%; } }
+
+/* Medium Desktop */
+@media only screen and (min-width: 1024px) and (max-width: 1215px) {
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 2.5% 0% 0% 0%; }
+  h2 {
+    font-size: 1.5rem;
+    margin: 2.5% 0% 2.5% 0%; }
+  h3 {
+    font-size: 1.25rem;
+    margin: 2.5% 0% 2.5% 0%; }
+  figcaption {
+    font-size: 1rem; }
+  #photo {
+    margin-bottom: 5%; } }
+
+/* ---------- */
+/* Widesreen Desktop */
+@media only screen and (min-width: 1216px) and (max-width: 1407px) {
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 2.5% 0% 0% 0%; }
+  h2 {
+    font-size: 1.5rem;
+    margin: 2.5% 0% 2.5% 0%; }
+  h3 {
+    font-size: 1.25rem;
+    margin: 2.5% 0% 2.5% 0%; }
+  figcaption {
+    font-size: 1rem; }
+  #photo {
+    margin-bottom: 2.5%; } }
+
+/* ---------- */
+/* Full HD Desktop */
+@media only screen and (min-width: 1216px) {
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 2.5% 0% 0% 0%; }
+  h2 {
+    font-size: 1.5rem;
+    margin: 2.5% 0% 2.5% 0%; }
+  h3 {
+    font-size: 1.25rem;
+    margin: 2.5% 0% 2.5% 0%; }
+  figcaption {
+    font-size: 1rem; }
+  #photo {
+    margin-bottom: 2.5%; } }
+
+/* ---------- */
