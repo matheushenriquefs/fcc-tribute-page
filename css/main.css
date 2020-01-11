@@ -30,8 +30,20 @@ body {
 figure {
   margin: 3.5% 3.5% 3.5% 3.5%; }
 
+#img-div {
+  display: grid;
+  grid-template-rows: 100% 100%;
+  grid-template-columns: 100%;
+  grid-template-areas: "image" "caption";
+  justify-items: center;
+  align-items: center; }
+
 #image {
-  width: 100%; }
+  grid-area: image;
+  max-width: 100%; }
+
+#img-caption {
+  grid-area: caption; }
 
 /* Typography */
 #title, h2, h3, #img-caption {
