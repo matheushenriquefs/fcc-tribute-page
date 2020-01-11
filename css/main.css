@@ -6,7 +6,7 @@ body {
   background-color: #eee;
   font-family: 'Public Sans', sans-serif; }
 
-.grid-layout {
+#main {
   display: grid;
   grid-template-rows: 100% 100% 100% 100%;
   grid-template-columns: 100%;
@@ -30,11 +30,11 @@ body {
 figure {
   margin: 3.5% 3.5% 3.5% 3.5%; }
 
-#photo {
+#image {
   width: 100%; }
 
 /* Typography */
-h1, h2, h3, figcaption {
+#title, h2, h3, #img-caption {
   text-align: center; }
 
 h2 {
@@ -46,7 +46,7 @@ blockquote {
 /* ---------- */
 /* Mobile */
 @media only screen and (max-width: 767px) {
-  h1 {
+  #title {
     font-size: 3rem;
     font-weight: bold;
     margin: 10% 0% 0% 0%; }
@@ -56,17 +56,17 @@ blockquote {
   h3 {
     font-size: 1.25rem;
     margin: 10% 0% 10% 0%; }
-  figcaption {
+  #img-caption {
     font-size: 1rem; }
   blockquote {
     margin: 10% 0% 10% 0%; }
-  #photo {
+  #image {
     margin-bottom: 5%; } }
 
 /* ---------- */
 /* Tablet and Small Desktop */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-  h1 {
+  #title {
     font-size: 3rem;
     font-weight: bold;
     margin: 5% 0% 0% 0%; }
@@ -76,14 +76,14 @@ blockquote {
   h3 {
     font-size: 1.25rem;
     margin: 5% 0% 5% 0%; }
-  figcaption {
+  #img-caption {
     font-size: 1rem; }
-  #photo {
+  #image {
     margin-bottom: 2.5%; } }
 
 /* Medium Desktop */
 @media only screen and (min-width: 1024px) and (max-width: 1215px) {
-  h1 {
+  #title {
     font-size: 3rem;
     font-weight: bold;
     margin: 2.5% 0% 0% 0%; }
@@ -93,15 +93,15 @@ blockquote {
   h3 {
     font-size: 1.25rem;
     margin: 2.5% 0% 2.5% 0%; }
-  figcaption {
+  #img-caption {
     font-size: 1rem; }
-  #photo {
+  #image {
     margin-bottom: 5%; } }
 
 /* ---------- */
 /* Widesreen Desktop */
 @media only screen and (min-width: 1216px) and (max-width: 1407px) {
-  h1 {
+  #title {
     font-size: 3rem;
     font-weight: bold;
     margin: 2.5% 0% 0% 0%; }
@@ -111,15 +111,15 @@ blockquote {
   h3 {
     font-size: 1.25rem;
     margin: 2.5% 0% 2.5% 0%; }
-  figcaption {
+  #img-caption {
     font-size: 1rem; }
-  #photo {
+  #image {
     margin-bottom: 2.5%; } }
 
 /* ---------- */
 /* Full HD Desktop */
 @media only screen and (min-width: 1216px) {
-  h1 {
+  #title {
     font-size: 3rem;
     font-weight: bold;
     margin: 2.5% 0% 0% 0%; }
@@ -129,9 +129,9 @@ blockquote {
   h3 {
     font-size: 1.25rem;
     margin: 2.5% 0% 2.5% 0%; }
-  figcaption {
+  #img-caption {
     font-size: 1rem; }
-  #photo {
+  #image {
     margin-bottom: 2.5%; } }
 
 /* ---------- */
