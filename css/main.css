@@ -34,7 +34,7 @@ figure {
   display: grid;
   grid-template-rows: 100% 100%;
   grid-template-columns: 100%;
-  grid-template-areas: "image" "caption";
+  grid-template-areas: "image" "img-caption";
   justify-items: center;
   align-items: center; }
 
@@ -43,7 +43,7 @@ figure {
   max-width: 100%; }
 
 #img-caption {
-  grid-area: caption; }
+  grid-area: img-caption; }
 
 /* Typography */
 #title, h2, h3, #img-caption {
