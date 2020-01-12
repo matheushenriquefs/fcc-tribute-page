@@ -7,6 +7,12 @@ The objective of this project was to use plain CSS to add responsiveness to the 
 
 **Mobile:**
 
+![Website view on mobile](https://imgur.com/zOhUcC9.png)
+
 **Tablet:**
 
+![Website view on tablet](https://imgur.com/VhzilTe.png)
+
 **Desktop:**
+
+![Website view on desktop](https://imgur.com/23X8A7T.png)
